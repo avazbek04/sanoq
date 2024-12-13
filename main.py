@@ -1,7 +1,7 @@
-def dec_to_oct(n):
-    return oct(n)[2:]  # oct() funksiyasi bilan 10-likdan 8-likka o‘tkazish
+def dec_to_hex(n):
+    return hex(n)[2:].upper()  # hex() funksiyasi bilan 10-likdan 16-likka o‘tkazish
 
 # Misol
 decimal_number = 10
-octal_number = dec_to_oct(decimal_number)
-print(f"Decimal: {decimal_number} -> Octal: {octal_number}")
+hexadecimal_number = dec_to_hex(decimal_number)
+print(f"Decimal: {decimal_number} -> Hexadecimal: {hexadecimal_number}")
