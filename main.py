@@ -1,5 +1,5 @@
 def dec_to_bin(n):
-    return bin(n)[2:]  # bin() funksiyasi bilan 10-likdan 2-likka o‘tkazish
+    return bin(n)[2:]  # bin() funksiyasi bilan ''10-likdan 2-likka o‘tkazish''
 
 # Misol
 decimal_number = 10
